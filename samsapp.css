@@ -1,0 +1,625 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: white;
+    
+}
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+.navbar a:hover{
+    border-bottom: 1px solid #822727;
+   
+}
+.navbar button{
+    padding: 12px 20px;
+    background-color: #822727;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}.navbar button:hover{
+    cursor: pointer;
+    background-color: #450d0d;
+}
+span{
+    color: #822727;
+    font-size: 48px;
+    font-weight: bold;
+    display:  block;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-direction: backwards;
+    animation-iteration-count: infinite;
+   
+}
+
+
+ 
+
+/* @keyframes move {
+    0%{
+        transform: translateX(0%);
+       
+    }
+    30%{
+        
+        transform: translateX(300px);
+    }
+    60%{
+        transform: translateX(200px);
+    }
+     */
+    
+
+
+
+.bar{
+    padding: 8px;
+}
+
+.navbar:hover{
+    cursor: pointer ;
+}
+.navbar a{
+    color: #822727;
+    text-decoration: none;
+    font-size: 16px;
+}
+ .navbar img{
+    width: 100px;
+    height: 100px;
+  
+}
+.container{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 20px;
+    padding: 60px;
+   
+}
+.text1{
+    font-size: 38px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+ 
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.text2{
+    font-size: 24px;
+}
+.btna{
+    color: white;
+    font-weight: bold;
+    background-color: #822727;
+    padding: 13px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    text-transform:uppercase;
+    font-size: 16px;
+    
+    max-width: 40%;
+    
+    
+}
+ .shapeImg{
+    max-width: 100%;
+    height: 370px;
+    max-height: 100%;
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.iphoneImg{
+    position: absolute;
+    top: -50px;
+max-width: 100%;
+max-height: 480px;
+   z-index: -1;
+  
+}
+.center-text{
+   align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+    margin: 50px 0px;
+    
+}
+.center-text::after{
+    content: "";
+    border-bottom: 2px solid black;
+   width: 4%;
+    position: absolute;
+    top: 50px;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+}
+.meeting{
+    width: 100%;
+    height: auto;
+}
+.heading{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.box p{
+    font-size: 16px;
+}
+.box h3{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+ .box{
+    margin: 20PX 50PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}.background{
+    background-color: brown;
+    border-radius: 10px;
+    height: 500px;
+    width: 1000px;
+    /* background-position: center; */
+    margin: 120PX auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+     padding: 20px;    
+     color: white;
+     
+}
+.word h1{
+   margin: 16px 0;
+   font-weight: bold;
+   font-size: 36px;
+   text-align: center;
+}
+.word p{
+    line-height: 1.5em;
+    font-size: 24px;
+   
+}
+
+.shap{
+    max-width: 85%;
+    
+    max-height: 100%;
+     position: relative;
+    top: -95px;
+     
+}
+.shap1{
+width: 40%;
+height: 30%;
+margin: 0 auto;
+
+
+}
+.btn{
+    text-align: center;
+    background-color: transparent;
+
+}
+footer{
+    background-color: #343a40;
+    color: white;
+}
+.container1 li{
+    list-style-type: none;
+    padding: 3px;
+}
+.container1 a{
+    text-decoration: none;
+    color: white;
+
+}
+.container1 h2:hover{
+    border-bottom: 2px solid white;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 16px;
+    font-size: 14px;
+    margin: 10px;
+}
+   
+
+.container1 h2{
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+
+.social a:hover{
+opacity: 20%;
+} 
+
+
+.social {
+    display: flex;
+    gap: 10px;
+
+}
+.bottom1{
+    height: 70px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom1 a:hover{
+    border-bottom: 1px solid white;
+}
+.bottom1 a{
+    color: white;
+}
+#form-btn{
+    background-color: #820000;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.5s;
+}
+#form-btn:hover{
+    background-color: #DF2E38;
+}
+.register{
+    display: none;
+}
+
+.my-form p{
+display: inline-block;
+
+}
+.form-login{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+#password{
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid gray;
+   
+    
+}
+#email{
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    
+   
+    
+}
+#lname,
+#fname,
+#regemail,
+#regpassword{
+     width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid gray;
+}
+
+#erroremail,
+#errorpassword,
+#errorfname,
+#errorlname,
+#regmail,
+#regword{
+    color: red;
+    margin: 10px 0;
+    display: none;
+
+}
+
+.my-form-register label{
+display: block;
+}
+
+.my-form-login label::after{
+content: "*";
+color: red;
+}
+.my-form-login{
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    width: 35%;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    transition: 1.5s;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+   background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    display: none;
+    z-index: 2;
+
+}
+
+
+#btn-login,
+#btn-register{
+    margin-bottom: 30px;
+    font-weight: bold;
+    width: 50%;
+    background: none;
+    border: none;
+}
+.close{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 7px;
+    border-radius: 10px;
+    padding: 0 5px;
+    transition: all 0.5s ease-in;
+}
+.close:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    opacity: 0.7;
+}
+
+
+
+@media only screen and (max-width: 1100px){
+    .container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+        padding: 60px;
+   
+    }
+    .container1{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0 16px;
+        font-size: 14px;
+}
+}
+@media (max-width: 990px){
+    .background{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        height: 1000px;
+       
+    }
+    .twophones{
+        max-height: 65%;
+    }
+    .shap{
+        max-width: 100%;
+        
+        max-height: 100%;
+         position: relative;
+        top: -30px;
+        left: 0;
+         
+    }
+    .btn{
+        margin: 40px 0 50px 0;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+        padding: 60px;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    .meeting{
+        max-width: 50%;
+    }
+    .heading{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+            
+   }
+  .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   } 
+   .phone{
+    margin-top: 40px;
+   }
+   .background{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 900px;
+    justify-content: center;
+        align-items: center;
+}
+.shap{
+    max-width: 100%;
+    
+    max-height: 85%;
+     position: relative;
+    top: -30px;
+    left: 0;
+     
+}
+.btn{
+    margin: 40px 0 50px 0;
+}
+   
+  
+   }
+
+   
+               
+
+
+@media (max-width:640px){
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+        padding: 60px;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    
+    .background{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        height: 900px;
+        justify-content: center;
+        align-items: center;
+    }
+    .shap{
+        max-width: 100%;
+        
+        max-height: 85%;
+         position: relative;
+        top: -30px;
+        left: 0;
+         
+    }
+    .btn{
+        margin: 40px 0 50px 0;
+    }
+}
+@media (max-width: 550px){
+    .container{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+        padding: 60px;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    .center-text P{
+        text-align: center;
+        padding: 0 20px;
+        font-size: 22px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+       .box p{
+        padding: 0 30px;
+       }
+
+   .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0 16px;
+    font-size: 14px;
+    justify-content: center;
+        align-items: center;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 900px;
+}
+.shap{
+    max-width: 100%;
+    
+    max-height: 85%;
+     position: relative;
+    top: -30px;
+    left: 0;
+     
+}
+.btn{
+    margin: 40px 0 50px 0;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    width: 300px;
+}
+    }
+   
